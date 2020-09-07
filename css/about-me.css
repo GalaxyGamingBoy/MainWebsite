@@ -15,3 +15,25 @@
     display: inline-block;
     font-size: 16px;
 }
+.about-me{
+    color: aquamarine;
+}
+.about-me-p{
+    position: absolute;
+    top: 155px;
+    color: rgb(252, 208, 64);
+    font-size: 25px;
+    width: 36%; 
+    height: 100%;
+    overflow: hidden;
+    text-overflow: clip; 
+}
+.logo-image{
+    position: absolute;
+    left: 725px;
+    bottom: 500px;
+}
+.social-media{
+    position: absolute;
+    top: 50%;
+}

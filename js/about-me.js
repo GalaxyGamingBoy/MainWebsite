@@ -3,6 +3,14 @@ const aboutMeButton = document.getElementById('footer-button-about-me-id')
 const downloadsButton = document.getElementById('footer-button-downloads-id')
 const onlineGamesButton = document.getElementById('footer-button-online-games-id')
 
+const yt = document.getElementById('yt')
+const ds = document.getElementById('di')
+const re = document.getElementById('re')
+const st = document.getElementById('st')
+
+
+
+
 homeButton.addEventListener("click", ()=>{
     console.log('Home Button Clicked')
     changePageTp("/index.html")
@@ -18,6 +26,20 @@ downloadsButton.addEventListener("click", ()=>{
 onlineGamesButton.addEventListener("click", ()=>{
     console.log('Online Games Button Clicked')
     changePageTp("/online-games.html")
+})
+
+
+yt.addEventListener("click", ()=>{
+    window.open('https://www.youtube.com/channel/UCkBZFi_acIdsJZpmOvdzVvg?view_as=subscriber')
+})
+ds.addEventListener("click", ()=>{
+    window.open('https://discord.gg/ugFfsRJ')
+})
+st.addEventListener("click", ()=>{
+    window.alert('My steam code is: 892333832')
+})
+re.addEventListener("click", ()=>{
+    window.open('https://www.reddit.com/user/GalaxyGamingBoy')
 })
 
 function changePageTp(https){
