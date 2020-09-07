@@ -15,3 +15,39 @@
     display: inline-block;
     font-size: 16px;
 }
+.about-me-button-info{
+    color: aquamarine;
+}
+.latest-video{
+    text-align: center;
+    color: #fcff00;
+}
+.latest-video-div{
+    margin: 0;
+    position: absolute;
+    top: 12cm;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+.last-3-videos{
+    text-align: center;
+    position: absolute;
+    top: 16cm;
+    left: 45%;
+    color: #ff0000;
+}
+.vid-1{
+    position: absolute;
+    top: 17.5cm;
+}
+.vid-2{
+    position: absolute;
+    top: 17.5cm;
+    left: 17.8cm;
+}
+.vid-3{
+    position: absolute;
+    top: 17.5cm;
+    left: 34.8cm;
+}
