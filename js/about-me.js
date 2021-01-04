@@ -7,7 +7,7 @@ const yt = document.getElementById('yt')
 const ds = document.getElementById('di')
 const re = document.getElementById('re')
 const st = document.getElementById('st')
-
+const mmf = document.getElementById('mmf')
 
 
 
@@ -40,6 +40,9 @@ st.addEventListener("click", ()=>{
 })
 re.addEventListener("click", ()=>{
     window.open('https://www.reddit.com/user/GalaxyGamingBoy')
+})
+mmf.addEventListener("click", ()=>{
+    window.open('https://forms.gle/SYxeDyhpELoJVFJG7')
 })
 
 function changePageTp(https){

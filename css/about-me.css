@@ -20,7 +20,7 @@
 }
 .about-me-p{
     position: absolute;
-    top: 155px;
+    top: 165px;
     color: rgb(252, 208, 64);
     font-size: 25px;
     width: 36%; 
@@ -35,5 +35,5 @@
 }
 .social-media{
     position: absolute;
-    top: 50%;
+    top: 65%;
 }
